@@ -15,10 +15,10 @@
 
 Bright Motors has recently appointed a new **Head of Sales** tasked with **expanding the dealership network, improving sales performance, and optimising inventory**. However, leadership currently lacks a clear, data-driven view of:
 
-- Which **car makes and models** are actually driving revenue and profit.
-- How **price, mileage, and year of manufacture** influence what customers buy.
-- Which **regions** are over- or under-performing.
-- What **emerging customer preferences** (e.g. fuel type, vehicle age) should shape future stock and marketing decisions.
+- Which **car makes and models** are actually driving revenue and profit?.
+- How **price, mileage, and year of manufacture** influence what customers buy?.
+- Which **regions** are over- or under-performing?.
+- What **emerging customer preferences** (e.g. fuel type, vehicle age) should shape future stock and marketing decisions?.
 
 Without these insights, the dealership risks misallocating inventory, running ineffective marketing campaigns, and missing growth opportunities in high-potential regions.
 
@@ -26,7 +26,7 @@ Without these insights, the dealership risks misallocating inventory, running in
 
 ## 2. 🎯 Aim of the Project
 
-To analyse the historical *Bright Car Sales* dataset and deliver **actionable business insights and recommendations** that help the new Head of Sales make informed decisions on **inventory, pricing, regional expansion, and marketing strategy**.
+To analyse the historical *Bright-AutoMobile-Car-Sales* dataset and deliver **actionable business insights and recommendations** that help the new Head of Sales make informed decisions on **inventory, pricing, regional expansion, and marketing strategy**.
 
 ---
 
@@ -35,12 +35,12 @@ To analyse the historical *Bright Car Sales* dataset and deliver **actionable bu
 The project followed a structured analytics workflow:
 
 ### Step 1 — Planning & Architecture
-- Designed a data-flow / architecture diagram in **Miro** showing:
-  `Source (CSV/Excel) → ETL (cleaning) → Storage (Snowflake) → Analysis (SQL + Power BI) → Presentation (PowerPoint)`.
+- Designed a data-flow / architecture diagram in **Miro** and **Gantt Chart**showing:
+  `Source (CSV/Excel) → ETL (cleaning) → Storage (Databricks) → Analysis (SQL + Databricks/Power BI/Google Locker Studio) → Presentation (PowerPoint)`.
 - Defined the key insights to deliver and the metrics required.
 
-### Step 2 — Data Processing (SQL / Snowflake)
-- Converted the provided Excel file into CSV and loaded it into Snowflake.
+### Step 2 — Data Processing (SQL / Databricks)
+- Converted the provided Excel file into CSV and loaded it into Databricks.
 - Cleaned the data: removed duplicates, handled missing values, stripped currency symbols, and converted text-based prices (e.g. `'15,000'`) to numeric format.
 - Created derived columns:
   - `total_revenue = selling_price * units_sold`
@@ -49,9 +49,10 @@ The project followed a structured analytics workflow:
 - Grouped transactions by **month, quarter, and year** for trend analysis.
 
 ### Step 3 — Analysis & Visualisation
-- Connected the processed data to **Power BI / Excel / Looker Studio**.
+- Connected the processed data to **Power BI/ BigQuery / Excel / Looker Studio**.
 - Built an interactive dashboard with **slicers for region, fuel type, and year**.
-- Analysed:
+- 
+ **Analysed:**
   - Revenue by make and model
   - Sales distribution by year and fuel type
   - Regional performance (city / province)
@@ -87,10 +88,10 @@ The project followed a structured analytics workflow:
 
 | Layer | Tool(s) Used |
 |---|---|
-| **Coding / SQL** | Snowflake *(also valid: MS SQL Server, Databricks, BigQuery, MySQL Workbench)* |
-| **Visualisation** | Power BI *(also valid: Excel, Google Sheets, Looker Studio)* |
+| **Coding / SQL** | Databricks *(also valid:BigQuery, Snowflakes, MS SQL Server, MySQL Workbench)* |
+| **Visualisation** | Looker Studio *(also valid: Excel, Google Sheets, Power BI)* |
 | **Presentation** | PowerPoint *(also valid: Canva)* |
-| **Project Planning** | Miro *(also valid: Figma)* |
+| **Project Planning** | Miro *(also valid: Gantt Chart)* |
 
 
 ##📂 Project Structure
@@ -107,11 +108,11 @@ The project followed a structured analytics workflow:
 
 .. ├── dashboard/
 
-.. │   ├── dashboard.pbix / excel_dashboard.xlsx
+.. │   ├── dashboard.locker studio /dashboard.pbix / excel_dashboard.xlsx
 
 .. ├── presentation/
 
-.. │   ├── BrightMotors_Presentation.pdf
+.. │   ├── Bright-AutoMobile-Car-Sales.pdf
 
 
 ##🔄 Data Processing
