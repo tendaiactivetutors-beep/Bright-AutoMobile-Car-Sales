@@ -154,4 +154,13 @@ The project followed a structured analytics workflow:
 
 ##🚀 Outcome
 
-.This analysis provides data-driven insights to support strategic decisions for increasing revenue and operational efficiency at Bright Motors.
+.This analysis provides data-driven insights to support strategic decisions for increasing revenue and operational efficiency at Bright-AutoMobile-Car-Sales.
+
+## 👤 Author: Tendai Shumba
+tendai.activetutors@gmail.com  ·  github.com/tendaiactivetutors-beep
+
+**Junior Data Analyst** — Bright-AutoMobile-Car-Sales Case Study
+Course provider: [BrightLearn](https://brightlearn.co.za) · 📧 rofhiwa@brightlighttutorials.co.za
+
+*Completed as part of the BrightLearn Data Analytics case study programme.*
+
