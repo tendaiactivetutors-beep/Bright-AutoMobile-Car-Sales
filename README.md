@@ -18,15 +18,23 @@
 
 ##📂 Project Structure
 .. ├── data/
+
 .. │   ├── raw_data.csv
+
 .. │   ├── processed_data.xlsx
+
 .. ├── sql/
+
 .. │   ├── car_sales_queries.sql
+
 .. ├── dashboard/
+
 .. │   ├── dashboard.pbix / excel_dashboard.xlsx
+
 .. ├── presentation/
+
 .. │   ├── BrightMotors_Presentation.pdf
-.. ├── README.md
+
 
 ###🔄 Data Processing
 . Converted price fields to numeric
