@@ -128,9 +128,11 @@ The project followed a structured analytics workflow:
 
 ##🚘 Revenue Drivers
 . A small group of car models contributes the majority of revenue
-. 🌍 Regional Performance
+
+##🌍 Regional Performance
 . Certain regions dominate sales, indicating expansion opportunities
-. ⛽ Customer Preferences
+
+##⛽ Customer Preferences
 . Fuel type trends show shifting demand patterns
 
 ###💰 Profitability
