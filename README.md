@@ -51,7 +51,7 @@ The project followed a structured analytics workflow:
 ### Step 3 — Analysis & Visualisation
 - Connected the processed data to **Power BI/ BigQuery / Excel / Looker Studio**.
 - Built an interactive dashboard with **slicers for region, fuel type, and year**.
-- 
+  
  **Analysed:**
   - Revenue by make and model
   - Sales distribution by year and fuel type
@@ -62,7 +62,7 @@ The project followed a structured analytics workflow:
 ### Step 4 — Presentation & Recommendations
 - Summarised the findings into a clear, visually appealing presentation for the Head of Sales, with concise insight notes and prioritised recommendations.
 
----
+
 
 ## 4. 📈 Summary of Results
 
