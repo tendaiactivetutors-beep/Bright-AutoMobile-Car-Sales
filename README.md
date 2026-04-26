@@ -35,7 +35,7 @@ To analyse the historical *Bright-AutoMobile-Car-Sales* dataset and deliver **ac
 The project followed a structured analytics workflow:
 
 ### Step 1 — Planning & Architecture
-- Designed a data-flow / architecture diagram in **Miro** and **Gantt Chart**showing:
+- Designed a data-flow / architecture diagram in **Miro** and **Gantt Chart** showing:
   `Source (CSV/Excel) → ETL (cleaning) → Storage (Databricks) → Analysis (SQL + Databricks/Power BI/Google Locker Studio) → Presentation (PowerPoint)`.
 - Defined the key insights to deliver and the metrics required.
 
