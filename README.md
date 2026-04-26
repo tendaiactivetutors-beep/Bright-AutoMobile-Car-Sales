@@ -66,13 +66,12 @@ The project followed a structured analytics workflow:
 
 ## 4. 📈 Summary of Results
 
-> *Placeholders — replace with the actual figures from your analysis.*
 
-- 🥇 **Top revenue-generating make:** _e.g. Toyota_, contributing **~XX%** of total revenue.
-- 🚙 **Best-selling model:** _e.g. Toyota Corolla_, with **XX,XXX units** sold.
-- ⛽ **Leading fuel type:** _e.g. Petrol vehicles_ accounted for **~XX%** of sales; hybrid sales are growing year-on-year.
-- 📍 **Top region:** _e.g. Gauteng_ generated the highest sales volume and revenue, followed by _Western Cape_.
-- 📉 **Price vs. mileage:** Strong **negative correlation** — selling price drops sharply once mileage exceeds **~100,000 km**.
+- 🥇 **Top revenue-generating make:**  
+- 🚙 **Best-selling model:** 
+- ⛽ **Leading fuel type:** 
+- 📍 **Top region:** 
+- 📉 **Price vs. mileage:** Strong **negative correlation**
 - 📅 **Year of manufacture:** Vehicles **3–5 years old** showed the best balance of demand and margin.
 - 💰 **Profit margin tiers:** **XX%** of vehicles classified as *High Margin*, **XX%** *Medium*, **XX%** *Low*.
 
@@ -82,7 +81,6 @@ The project followed a structured analytics workflow:
 3. **Invest in marketing for emerging fuel types** (hybrid / electric) as adoption rises.
 4. **Phase out consistently low-margin models** to free up showroom and capital.
 
----
 
 ## 5. 🧰 Tools Used in the Case Study
 
