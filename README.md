@@ -146,7 +146,7 @@ The project followed a structured analytics workflow:
 . Price vs Mileage Analysis
 . Interactive filters (Year, Region, Fuel Type)
 
-##📊 Google Looker Studio Dashboard: [Click Here](https://datastudio.google.com/s/ryrN4vYs_Ws)
+##📊 Google Looker Studio Dashboard: (https://datastudio.google.com/reporting/77deeefc-ec8b-4f22-a76b-00f7ce0bc56f) 
 
 ###💡 Recommendations
 
